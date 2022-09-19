@@ -1,5 +1,6 @@
 import React,{FunctionComponent} from "react";
 import styled from "styled-components";
+import MainLayout from "../Layout";
 
 interface AppProps {
     
@@ -8,7 +9,7 @@ interface AppProps {
 const App: FunctionComponent<AppProps> = () => {
     return ( 
          <AppContainer>
-             <h1>ADMIN ALPHA</h1>
+             <MainLayout/>
          </AppContainer>
      );
 }
